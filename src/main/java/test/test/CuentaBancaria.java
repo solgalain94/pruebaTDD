@@ -8,5 +8,8 @@ public class CuentaBancaria {
 	public void agregarSaldo(int valor) {
 		this.saldo=this.saldo+valor;
 	}
+	public void restarSaldo(int valor) {
+		this.saldo=this.saldo-valor;
+	}
 
 }

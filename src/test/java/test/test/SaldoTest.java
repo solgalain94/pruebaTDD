@@ -34,7 +34,7 @@ public class SaldoTest {
 		CuentaBancaria cuentaBancaria= new CuentaBancaria();
 		cuentaBancaria.restarSaldo(125);
 		int saldo= cuentaBancaria.getSaldo();
-		assertEquals(75, saldo);
+		assertEquals(-125, saldo);
 	}
 	
 
