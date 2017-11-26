@@ -29,5 +29,13 @@ public class SaldoTest {
 		int saldo=cuentaBancaria.getSaldo();
 		assertEquals(200,saldo);
 	}
+	@Test
+	public void restarSaldo() {
+		CuentaBancaria cuentaBancaria= new CuentaBancaria();
+		cuentaBancaria.restarSaldo(125);
+		int saldo= cuentaBancaria.getSaldo();
+		assertEquals(75, saldo);
+	}
+	
 
 }
