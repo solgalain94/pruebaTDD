@@ -17,7 +17,7 @@ public class SaldoTest {
 	}
 
 	@Test
-	public void saldoCero() {
+	public void saldoInicialcero() {
 		CuentaBancaria cuentaBancaria = new CuentaBancaria();
 		int saldo=cuentaBancaria.getSaldo();
 		assertEquals(0,saldo);
